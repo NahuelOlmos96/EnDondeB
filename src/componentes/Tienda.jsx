@@ -41,7 +41,8 @@ export default function Tienda() {
           type="text"
           placeholder="Que Buscas?"
           className="form-control buscador"
-        ></input> <img className="iconos logoBusqueda" src={busqueda} alt="" />
+        ></input>{" "}
+        <img className="iconos logoBusqueda" src={busqueda} alt="" />
       </div>
       <div className=" contenedorTienda container  text-center ">
         <div className="row justify-content-center justify-content-lg-start">
@@ -49,7 +50,8 @@ export default function Tienda() {
             <div
               key={index}
               className="card col-2"
-              data-aos="flip-left"
+              //animacion de scroll
+              data-aos="zoom-in"
               style={{ width: "20rem" }}
             >
               <img

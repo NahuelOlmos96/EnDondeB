@@ -4,6 +4,7 @@ import busqueda from "../imagnes/logodebusqueda.svg";
 import AOS from "aos";
 import datos from "../datos";
 
+
 export default function Tienda() {
   AOS.init();
 
